@@ -1,0 +1,4 @@
+export MPJ_HOME=/home/paritosh/Assignment2/mpj-v0_44
+javac -cp .:$MPJ_HOME/lib/mpj.jar mpiprogram3.java
+$MPJ_HOME/bin/mpjrun.sh -np 4 mpiprogram3
+
