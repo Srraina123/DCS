@@ -1,0 +1,5 @@
+idlj -fall Calc.idl
+javac *.java CalcApp/*.java
+orbd -ORBInitialPort 1050&
+java CalcServer -ORBInitialPort 1050 -ORBInitialHost localhost&
+java CalcClient -ORBInitialPort 1050 -ORBInitialHost localhost
