@@ -8,7 +8,7 @@ int root = 0;
 //Rank and Size
 int size = MPI.COMM_WORLD.Size(); //Whenever program is ran in mpi all
 
-processes are grouped in an communicator.
+//processes are grouped in an communicator.
 
 int rank = MPI.COMM_WORLD.Rank();
 if(rank == root)
